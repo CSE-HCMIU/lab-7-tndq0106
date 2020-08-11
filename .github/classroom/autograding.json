@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Ex 1 .c",
+      "setup": "gcc Exercise1.c -o ex1c.out",
+      "run": "./ex1c.out",
+      "input": "",
+      "output": "ab",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 2 .c",
+      "setup": "gcc Exercise2.c -o ex2c.out",
+      "run": "./ex2c.out",
+      "input": "",
+      "output": "3",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 3 .c",
+      "setup": "gcc Exercise3.c -o ex3c.out",
+      "run": "./ex3c.out",
+      "input": "",
+      "output": "-55+79i",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 4 .c",
+      "setup": "gcc Exercise4.c -o ex4c.out",
+      "run": "./ex4c.out",
+      "input": "",
+      "output": "10110",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 5 .c",
+      "setup": "gcc Exercise5.c -o ex5c.out",
+      "run": "./ex5c.out",
+      "input": "",
+      "output": "aw ax ay az bw bx by bz cw cx cy cz",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
